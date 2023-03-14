@@ -1,6 +1,0 @@
-#app .box {
-  --size: 200px;
-  width: var(--size);
-  height: var(--size);
-  background-color: #000;
-}

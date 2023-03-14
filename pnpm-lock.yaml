@@ -1,8 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
+  a-hell-of-mess: 'link:'
   typescript: ^4.9.3
   vite: ^4.1.0
+
+dependencies:
+  a-hell-of-mess: 'link:'
 
 devDependencies:
   typescript: 4.9.5
