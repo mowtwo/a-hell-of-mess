@@ -1,0 +1,20 @@
+:root {
+  --rotate: 0deg;
+  --red: 0;
+  --green: 0;
+  --blue: 0;
+  --radius: 0%;
+  --sketch: 0;
+}
+
+#app .box {
+  --size: 200px;
+  width: var(--size);
+  height: var(--size);
+  background-color: rgb(var(--red), var(--green), var(--blue));
+  transition: all .2s;
+  rotate: var(--rotate);
+  margin: 200px;
+  border-radius: var(--radius);
+  transform: skew(10deg);
+}
